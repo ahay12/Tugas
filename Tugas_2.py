@@ -137,15 +137,3 @@ def oktalToHexa(X):
     hnum = hex(X)
 
     print('Nilai Hexa = ', hnum[2:])
-
-
-binerToOktal(int(input('Masukkan Bilangan Biner : ')))
-
-
-def coba(X):
-    bnum = int(X)
-    oktal = oct(bnum)
-    print('Nilai Oktal = ', oktal[2:])
-
-
-coba(int(input('Masukkan Bilangan Biner : ')))
