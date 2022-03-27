@@ -123,17 +123,3 @@ def oktalToDesimal(X):
         desimal += sisa * base
         base *= 8
     print('Nilai Desimal = ', desimal)
-
-
-def oktalToBiner(X):
-
-    bnum = bin(X)
-
-    print('Nilai Biner = ', bnum[2:])
-
-
-def oktalToHexa(X):
-
-    hnum = hex(X)
-
-    print('Nilai Hexa = ', hnum[2:])
